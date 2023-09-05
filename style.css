@@ -158,12 +158,13 @@ body {
   .nav-link {
     text-transform: uppercase;
     margin-right: 30px;
+    transition: 1s;
   }
   .nav-link:hover::after {
     content: '';
     display: block;
     border-bottom: 3px solid blue;
-    width: 50%;
+    width: 40%;
     margin: auto;
     padding-bottom: 3px;
     margin-bottom: -7px;
